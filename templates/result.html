@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Traversal Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        h2 {
+            margin: 20px 0;
+        }
+        .result {
+            text-align: center;
+            padding: 20px;
+        }
+        .result img {
+            max-width: 80%;
+            height: auto;
+            margin-top: 20px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: #4CAF50;
+        }
+        a:hover {
+            color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Tree Traversal Result</h2>
+    </header>
+    <div class="result">
+        <h3>{{ resultName }} Traversal:</h3>
+        <p>{{ traversal }}</p>
+
+        <h3>Binary Tree Structure:</h3>
+        <img src="{{ image_path }}" alt="Binary Tree">
+        
+        <br><br>
+        <a href="/">Go Back</a>
+    </div>
+</body>
+</html>
